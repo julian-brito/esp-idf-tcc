@@ -55,8 +55,8 @@ static const char *MCPWM_TAG = "MCPWM";
 #define MCPWM_GEN_ERROR         "MCPWM GENERATOR ERROR"
 #define MCPWM_DB_ERROR          "MCPWM DEADTIME TYPE ERROR"
 
-#define MCPWM_CLK_PRESCL 15       //MCPWM clock prescale
-#define TIMER_CLK_PRESCALE 9      //MCPWM timer prescales
+#define MCPWM_CLK_PRESCL 159       //MCPWM clock prescale
+#define TIMER_CLK_PRESCALE 99      //MCPWM timer prescales
 #define MCPWM_CLK (MCPWM_BASE_CLK/(MCPWM_CLK_PRESCL +1))
 #define MCPWM_PIN_IGNORE    (-1)
 #define OFFSET_FOR_GPIO_IDX_1  6
